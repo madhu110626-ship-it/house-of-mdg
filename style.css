@@ -27,5 +27,27 @@ body{margin:0;font-family:Arial;background:#f8f3eb;color:#222}.wa{
   position:sticky;
   top:0;
   z-index:100;
+}footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+}
+.footer-logo{
+  width:70px;
+  margin-bottom:15px;
+}
+footer h3{
+  color:#C49A2C;
+  margin:10px 0;
+}
+.footer-btn{
+  display:inline-block;
+  background:#C49A2C;
+  color:white;
+  padding:12px 24px;
+  border-radius:30px;
+  text-decoration:none;
+  margin:15px 0;
 }
 
