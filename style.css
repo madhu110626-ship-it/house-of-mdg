@@ -1,7 +1,14 @@
-body{margin:0;font-family:Arial;background:#f8f3eb;color:#222}header{display:flex;justify-content:space-between;align-items:center;padding:20px}h1{color:#b8860b}..wa{
+body{margin:0;font-family:Arial;background:#f8f3eb;color:#222}.wa{
   background:#C49A2C;
   color:white;
   padding:16px 28px;
+  border-radius:50px;
+  font-size:20px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 8px 20px rgba(196,154,44,.4);
+}header{display:flex;justify-content:space-between;align-items:center;padding:20px}h1{color:#b8860b}..wa{
+  
   border-radius:50px;
   font-size:20px;
   font-weight:bold;
