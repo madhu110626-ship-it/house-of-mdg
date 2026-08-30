@@ -3,5 +3,11 @@ body{margin:0;font-family:Arial;background:#f8f3eb;color:#222}header{display:fle
   height:auto;
   display:block;
   margin:20px auto;
+}header{
+  background:#111;
+  padding:18px;
+  position:sticky;
+  top:0;
+  z-index:100;
 }
 
