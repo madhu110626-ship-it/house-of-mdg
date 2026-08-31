@@ -62,11 +62,17 @@ font-size:13px;
 }
 
 .hero{
-display:grid;
-grid-template-columns:1.1fr .9fr;
-height:100vh;
-background:#050505;
-overflow:hidden;
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  min-height:100vh;
+  background:#050505;
+}
+
+@media (max-width:768px){
+  .hero{
+    display:block;
+    min-height:auto;
+  }
 }
 
 .overlay{
