@@ -36,7 +36,10 @@ filter:drop-shadow(0 0 12px rgba(212,175,55,.25));
 
 nav{
 display:flex;
-gap:30px;
+gap:38px;
+position:absolute;
+left:50%;
+transform:translateX(-50%);
 }
 
 nav a{
@@ -60,9 +63,10 @@ font-size:13px;
 
 .hero{
 display:grid;
-grid-template-columns:1.05fr .95fr;
+grid-template-columns:1.1fr .9fr;
 height:100vh;
-background:black;
+background:#050505;
+overflow:hidden;
 }
 
 .overlay{
@@ -147,10 +151,10 @@ font-size:24px;
 .hero-image img{
 width:100%;
 height:100%;
-object-fit:contain;
+object-fit:cover;
 object-position:center top;
-background:#050505;
 display:block;
+filter:brightness(.92);
 }
 
 .collections{
@@ -232,9 +236,9 @@ height:480px;
 }
 
 .collection-info{
-padding:18px;
+padding:22px 18px;
 text-align:center;
-background:rgba(0,0,0,.88);
+background:linear-gradient(to top,#050505,#111);
 }
 
 .collection-info h3{
@@ -382,14 +386,14 @@ margin-bottom:35px;
 }
 
 .footer-bottom{
-border-top:1px solid #333;
-margin-top:40px;
-padding-top:25px;
+border-top:1px solid rgba(212,175,55,.2);
+margin-top:45px;
+padding-top:30px;
 display:flex;
 justify-content:space-between;
 align-items:center;
 flex-wrap:wrap;
-color:#888;
+color:#999;
 }
 
 .social{
