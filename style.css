@@ -179,8 +179,16 @@ align-items:start;
 
 .collection-card{
 background:#0c0c0c;
-border:1px solid rgba(212,175,55,.25);
+border:1px solid rgba(212,175,55,.35);
+border-radius:16px;
+overflow:hidden;
 transition:.35s;
+box-shadow:0 10px 30px rgba(0,0,0,.35);
+}
+
+.collection-card:hover{
+transform:translateY(-8px);
+box-shadow:0 18px 40px rgba(212,175,55,.18);
 }
 
 .collection-card:hover{
