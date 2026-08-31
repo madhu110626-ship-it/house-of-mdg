@@ -11,10 +11,11 @@ header{
 }
 
 .logo{
-  width:140px;
+  width:260px;
+  max-width:80%;
   height:auto;
   display:block;
-  margin:0 auto 8px;
+  margin:auto;
 }
 
 .brand h1{
