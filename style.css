@@ -203,6 +203,24 @@ object-position:center top;
 background:#111;
 padding:12px;
 display:block;
+}.collection-card:nth-child(1) img{
+height:470px;
+}
+
+.collection-card:nth-child(2) img{
+height:390px;
+}
+
+.collection-card:nth-child(3) img{
+height:520px;
+}
+
+.collection-card:nth-child(4) img{
+height:410px;
+}
+
+.collection-card:nth-child(5) img{
+height:480px;
 }
 
 .collection-info{
