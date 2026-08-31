@@ -8,7 +8,9 @@ header{
 
 .brand{
   display:block;
-}.logo{
+}
+
+.logo{
   width:140px;
   height:auto;
   display:block;
