@@ -1,14 +1,18 @@
 body{margin:0;font-family:Arial;background:#f8f3eb;color:#222}
 header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
   background:#0b0b0b;
-  padding:16px 20px;
+  padding:22px 20px;
+  text-align:center;
 }
+
 
 .brand{
   display:block;
+}.logo{
+  width:140px;
+  height:auto;
+  display:block;
+  margin:0 auto 8px;
 }
 
 .brand h1{
