@@ -524,3 +524,32 @@ height:52vh;
 }
 
 }
+/* ===== CINEMATIC HERO ===== */
+
+.hero img{
+animation:heroZoom 14s ease-in-out infinite alternate;
+}
+
+@keyframes heroZoom{
+from{transform:scale(1);}
+to{transform:scale(1.08);}
+}
+
+.hero-text{
+animation:fadeUp 1.3s ease forwards;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(35px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.hero-text h1{
+text-shadow:0 8px 30px rgba(212,175,55,.18);
+}
