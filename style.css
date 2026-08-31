@@ -241,10 +241,13 @@ font-size:14px;
 }
 
 .designer{
-padding:40px 30px;
+padding:80px 30px;
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:25px;
+gap:28px;
+align-items:stretch;
+max-width:1400px;
+margin:auto;
 }
 
 .designer-card,
