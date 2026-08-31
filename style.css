@@ -23,12 +23,15 @@ width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 40px;
+padding:26px 50px;
 z-index:100;
+background:linear-gradient(to bottom, rgba(0,0,0,.65), transparent);
 }
 
 .logo{
-width:110px;
+width:160px;
+height:auto;
+filter:drop-shadow(0 0 12px rgba(212,175,55,.25));
 }
 
 nav{
@@ -65,9 +68,10 @@ background:black;
 .overlay{
 display:flex;
 align-items:center;
-background:linear-gradient(90deg,#000 60%,rgba(0,0,0,.15));
-padding:120px 70px;
+background:linear-gradient(90deg,#000 58%,rgba(0,0,0,.08));
+padding:120px 80px;
 }
+
 
 .hero-content{
 max-width:520px;
@@ -87,12 +91,14 @@ font-size:26px;
 margin-bottom:18px;
 }
 
-.hero h1{
+.hero h1{.hero h1{
 font-family:'Cormorant Garamond',serif;
-font-size:74px;
-line-height:1;
-margin-bottom:20px;
+font-size:86px;
+line-height:.95;
+margin-bottom:24px;
+font-weight:600;
 }
+
 
 .hero h1 span{
 color:#d4af37;
@@ -115,12 +121,14 @@ margin-bottom:35px;
 
 .gold-btn{
 display:inline-block;
-background:#d4af37;
-color:black;
-padding:16px 28px;
+background:linear-gradient(135deg,#C79A2A,#E6C15A);
+color:#111;
+padding:18px 34px;
 font-family:'Cinzel';
 font-size:14px;
 font-weight:bold;
+border-radius:4px;
+box-shadow:0 12px 30px rgba(212,175,55,.35);
 transition:.3s;
 }
 
