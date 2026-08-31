@@ -510,3 +510,17 @@ transition:.3s;
 .whatsapp-float:hover{
 transform:scale(1.08);
 }
+/* About page mobile heading */
+@media (max-width:768px){
+
+.page-banner h1{
+font-size:42px;
+line-height:1.1;
+padding:0 20px;
+}
+
+.page-banner{
+height:52vh;
+}
+
+}
