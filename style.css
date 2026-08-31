@@ -252,9 +252,15 @@ margin:auto;
 
 .designer-card,
 .coming-card{
-background:#080808;
-border:1px solid rgba(212,175,55,.25);
-padding:45px;
+background:linear-gradient(180deg,#0b0b0b,#121212);
+border:1px solid rgba(212,175,55,.35);
+border-radius:18px;
+padding:48px;
+min-height:500px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+box-shadow:0 15px 40px rgba(0,0,0,.35);
 }
 
 .designer-card h2{
