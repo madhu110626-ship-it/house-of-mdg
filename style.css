@@ -906,9 +906,11 @@ nav a:hover::after{
         letter-spacing:.12em;
     }
 
-    .logo{
-        width:76px;
-    }
+  .logo{
+    width:92px;
+    display:block;
+    margin:0 auto 16px;
+}
 
 }
 /* ===== MDG Luxury Spacing System ===== */
