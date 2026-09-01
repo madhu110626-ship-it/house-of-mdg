@@ -975,3 +975,25 @@ footer{
 footer p{
     opacity:.9;
 }
+/* ===== MDG Hero Alignment Final ===== */
+
+.hero{
+    text-align:center;
+}
+
+.hero .logo,
+.hero img:first-child{
+    display:block;
+    margin:0 auto 22px;
+}
+
+.hero p{
+    max-width:640px;
+    margin:0 auto 24px;
+}
+
+.hero .gold-btn,
+.hero button{
+    margin:0 auto;
+    display:inline-flex;
+}
