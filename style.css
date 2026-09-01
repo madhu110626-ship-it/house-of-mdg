@@ -617,111 +617,68 @@ box-shadow:0 18px 40px rgba(212,175,55,.35);
 }
 /* ===== MDG Luxury Typography Update (All Pages) ===== */
 
+/* ===== MDG Luxury Typography (Final) ===== */
+
 html{
   -webkit-text-size-adjust:100%;
 }
 
 body{
   font-family:'Poppins',sans-serif;
-  line-height:1.7;
+  line-height:1.75;
 }
 
 /* Hero title */
 .hero h1{
   font-family:'Cormorant Garamond',serif;
-  font-size:32px;
-  line-height:1.05;
-  letter-spacing:-0.03em;
-  white-space:nowrap;
+  font-size:clamp(2rem,5vw,3.2rem);
+  line-height:1.08;
+  letter-spacing:-0.02em;
+  max-width:11ch;
+  margin:0 auto;
+  text-wrap:balance;
 }
 
-/* Main page headings */
+/* All H1 */
 h1{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(2.2rem,6vw,3.8rem);
-  line-height:1.1;
-  letter-spacing:-0.02em;
+  font-size:clamp(1.9rem,4.5vw,3rem);
+  line-height:1.12;
+  letter-spacing:-0.015em;
+  text-wrap:balance;
 }
 
+/* H2 */
 h2{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(1.9rem,5vw,3rem);
-  line-height:1.15;
+  font-size:clamp(1.6rem,3.8vw,2.4rem);
+  line-height:1.2;
+  text-wrap:balance;
 }
 
+/* H3 */
 h3{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(1.6rem,4vw,2.1rem);
-  line-height:1.2;
+  font-size:clamp(1.2rem,3vw,1.6rem);
+  line-height:1.25;
 }
 
-/* Featured Designer title */
-.featured-designer h2,
-.designer-card h2{
-  font-size:clamp(2rem,5vw,3rem);
-  line-height:1.1;
-  letter-spacing:-0.02em;
-}
-  font-size:clamp(2.1rem,6vw,3.2rem);
-}
-
-/* Collection cards */
-.collection-info h3{
-  font-size:clamp(1.7rem,4.5vw,2.2rem);
-}
-
-/* Coming Soon card */
-.coming-soon h2,
-.coming-soon h1{
-  font-size:clamp(2.2rem,6vw,3.4rem);
-  line-height:1.1;
-}
-
-/* Body text */
-p,
-li{
-  font-size:16px;
-  line-height:1.8;
-}
-
-/* Small gold labels */
-.section-mini,
-.overline,
-.eyebrow{
-  font-size:13px;
-  letter-spacing:0.28em;
+/* Section labels */
+.section-mini{
+  font-size:.8rem;
+  letter-spacing:.35em;
   text-transform:uppercase;
 }
 
-/* Buttons */
-.gold-btn{
-  font-size:15px;
-  font-weight:600;
-  letter-spacing:0.06em;
+/* Paragraphs */
+p, li{
+  font-size:1rem;
+  line-height:1.8;
 }
 
 /* Mobile refinement */
 @media (max-width:768px){
-  .hero{
-    padding-top:90px;
-  }
-
-  .featured-designer h2,
-  .designer-card h2{
-    font-size:42px;
-  }
-
-  .coming-soon h2,
-  .coming-soon h1{
-    font-size:36px;
-  }
-
-  .collection-info h3{
-    font-size:28px;
-  }
-
-  p,
-  li{
-    font-size:16px;
+  .hero h1{
+    max-width:12ch;
   }
 }
