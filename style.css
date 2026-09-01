@@ -1139,3 +1139,29 @@ p{
     white-space:normal;
   }
 }
+/* ===== MDG Final Header Spacing Fix ===== */
+
+/* Reduce space below sticky header */
+header{
+    padding:12px 6%;
+}
+
+/* Pull every hero section closer to the navbar */
+.hero,
+.page-hero{
+    padding-top:24px !important;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    header{
+        padding:10px 5%;
+    }
+
+    .hero,
+    .page-hero{
+        padding-top:18px !important;
+    }
+
+}
