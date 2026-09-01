@@ -1184,3 +1184,55 @@ header{
 .hero p{
     max-width:620px;
 }
+/* ===== MDG Final Editorial Balance ===== */
+
+/* Elegant hero layout on every page */
+.hero,
+.page-hero{
+    min-height:78vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:32px 24px 56px;
+}
+
+/* Consistent editorial headings */
+.hero h1,
+.page-hero h1{
+    max-width:12ch;
+    margin:0 auto 18px;
+    line-height:1.04;
+    letter-spacing:-0.03em;
+    text-wrap:balance;
+}
+
+/* Consistent portrait cards */
+.collection-card img,
+.gallery-item img{
+    aspect-ratio:4/5;
+    object-fit:cover;
+}
+
+/* Premium image hover */
+.collection-card:hover img,
+.gallery-item:hover img{
+    transform:scale(1.04);
+}
+
+/* Mobile refinement */
+@media (max-width:768px){
+
+.hero,
+.page-hero{
+    min-height:72vh;
+    padding:20px 20px 44px;
+}
+
+.hero h1,
+.page-hero h1{
+    max-width:11ch;
+}
+
+}
