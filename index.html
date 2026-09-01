@@ -236,6 +236,23 @@ target="_blank">
 
 </footer>
 <a href="https://wa.me/919892027604" class="whatsapp-float">💬</a>
+  <a href="https://wa.me/919892027604" class="whatsapp-float">💬</a>
+
+<script>
+document.querySelectorAll('.gold-btn').forEach(btn=>{
+  btn.addEventListener('click',function(e){
+    if(btn.href.includes('wa.me')){
+      e.preventDefault();
+      if(confirm('Book a private consultation on WhatsApp?')){
+        window.open(btn.href,'_blank');
+      }
+    }
+  });
+});
+</script>
+
+</body>
+</html>
 </body>
 
 </html>
