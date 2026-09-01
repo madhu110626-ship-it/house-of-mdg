@@ -911,3 +911,39 @@ nav a:hover::after{
     }
 
 }
+/* ===== MDG Luxury Spacing System ===== */
+
+section{
+    padding:80px 8%;
+}
+
+.section-mini{
+    margin-bottom:18px;
+    text-align:center;
+}
+
+h1{
+    margin-bottom:16px;
+}
+
+h2{
+    margin-bottom:14px;
+}
+
+p{
+    margin-bottom:18px;
+}
+
+@media (max-width:768px){
+    section{
+        padding:60px 6%;
+    }
+
+    h1{
+        margin-bottom:14px;
+    }
+
+    h2{
+        margin-bottom:12px;
+    }
+}
