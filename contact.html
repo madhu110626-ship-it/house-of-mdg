@@ -19,49 +19,84 @@
 
 <section style="padding:120px 8%;max-width:700px;margin:auto;">
 
-<div class="section-mini">BOOK AN APPOINTMENT</div>
+  <div class="section-mini">BOOK AN APPOINTMENT</div>
 
-<h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,6vw,3.2rem);color:#d4af37;line-height:1.06;letter-spacing:-0.03em;text-wrap:balance;">
-Private Consultation
-</h1>
+  <h1 style="font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,6vw,3.2rem);color:#d4af37;">
+    Private Consultation
+  </h1>
 
-<p style="color:#ddd;line-height:1.8;margin:25px 0;">
-Reserve a private consultation for Bridal, Sherwani or Couture.
-</p>
+  <p style="color:#ddd;line-height:1.8;margin:25px 0;">
+    Reserve a private consultation for Bridal, Sherwani, Couture, Evening Wear or Resort Wear.
+  </p>
 
-<form action="https://wa.me/919892027604" method="get">
+  <form id="bookingForm">
 
-<input
-type="text"
-placeholder="Your Name"
-style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
+    <input id="name" type="text" placeholder="Your Name" required
+    style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
 
-<input
-type="tel"
-placeholder="Phone Number"
-style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
+    <input id="phone" type="tel" placeholder="Phone Number" required
+    style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
 
-<select
-style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
+    <select id="service"
+    style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
 
-<option>Bridal Consultation</option>
-<option>Sherwani Consultation</option>
-<option>Couture Consultation</option>
+      <option>Bridal Consultation</option>
+      <option>Sherwani Consultation</option>
+      <option>Couture Consultation</option>
+      <option>Evening Wear Consultation</option>
+      <option>Resort Wear Consultation</option>
 
-</select>
+    </select>
 
-<input
-type="date"
-style="width:100%;padding:18px;margin-bottom:30px;background:#111;border:1px solid #333;color:white;">
+    <input id="date" type="date" required
+    style="width:100%;padding:18px;margin-bottom:18px;background:#111;border:1px solid #333;color:white;">
 
-<button class="gold-btn" type="submit">
-Book via WhatsApp
-</button>
+    <select id="time"
+    style="width:100%;padding:18px;margin-bottom:30px;background:#111;border:1px solid #333;color:white;">
 
-</form>
+      <option>11:00 AM</option>
+      <option>12:00 PM</option>
+      <option>1:00 PM</option>
+      <option>2:00 PM</option>
+      <option>3:00 PM</option>
+      <option>4:00 PM</option>
+      <option>5:00 PM</option>
+      <option>6:00 PM</option>
+
+    </select>
+
+    <button type="submit" class="gold-btn">
+      Book Appointment
+    </button>
+
+  </form>
 
 </section>
-
 <a href="https://wa.me/919892027604" class="whatsapp-float">💬</a>
+<script>
+document.getElementById("bookingForm").addEventListener("submit",function(e){
+e.preventDefault();
+
+const name=document.getElementById("name").value;
+const phone=document.getElementById("phone").value;
+const service=document.getElementById("service").value;
+const date=document.getElementById("date").value;
+const time=document.getElementById("time").value;
+
+const message=`Hello House of Madhu Das Gupta.
+
+I'd like to book a private consultation.
+
+Name: ${name}
+Phone: ${phone}
+Service: ${service}
+Date: ${date}
+Time: ${time}`;
+
+window.open(`https://wa.me/919892027604?text=${encodeURIComponent(message)}`,"_blank");
+});
+</script>
+
+
 </body>
 </html>
