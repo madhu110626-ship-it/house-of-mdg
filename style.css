@@ -658,6 +658,10 @@ h3{
 /* Featured Designer title */
 .featured-designer h2,
 .designer-card h2{
+  font-size:clamp(2rem,5vw,3rem);
+  line-height:1.1;
+  letter-spacing:-0.02em;
+}
   font-size:clamp(2.1rem,6vw,3.2rem);
 }
 
