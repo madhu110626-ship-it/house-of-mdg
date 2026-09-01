@@ -1065,3 +1065,77 @@ h2{
         font-size:clamp(1.8rem,6vw,2.5rem);
     }
 }
+/* ===== MDG Final Luxury Polish ===== */
+
+section{
+  padding: clamp(64px,8vw,104px) 0;
+}
+
+.hero,
+.page-hero{
+  padding-top: clamp(32px,5vw,56px);
+  padding-bottom: clamp(48px,7vw,80px);
+}
+
+h1,h2{
+  font-family:'Cormorant Garamond',serif;
+  line-height:1.06;
+  letter-spacing:-0.03em;
+  text-wrap:balance;
+  margin-bottom:.4em;
+}
+
+.hero h1,
+.hero h2,
+.page-hero h1,
+.page-hero h2,
+.story h2,
+.vision h2,
+.services h2,
+.featured h2{
+  font-size:clamp(2rem,6vw,3.4rem);
+}
+
+.hero h1 br,
+.hero h2 br,
+.story h2 br,
+.vision h2 br,
+.services h2 br,
+.featured h2 br{
+  display:none;
+}
+
+.section-mini{
+  letter-spacing:.28em;
+  margin-bottom:16px;
+}
+
+p{
+  max-width:62ch;
+  line-height:1.8;
+}
+
+@media (max-width:768px){
+
+  section{
+    padding:56px 24px;
+  }
+
+  .hero,
+  .page-hero{
+    padding-top:24px;
+    padding-bottom:40px;
+  }
+
+  .hero h1,
+  .hero h2,
+  .page-hero h1,
+  .page-hero h2,
+  .story h2,
+  .vision h2,
+  .services h2,
+  .featured h2{
+    font-size:clamp(2rem,7vw,2.8rem);
+    white-space:normal;
+  }
+}
