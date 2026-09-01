@@ -1165,3 +1165,22 @@ header{
     }
 
 }
+/* ===== Final Hero Balance ===== */
+
+header{
+    padding:10px 6%;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:24px 24px 60px;
+}
+
+.hero p{
+    max-width:620px;
+}
